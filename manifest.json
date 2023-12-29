@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "SearXNG (priv.au)",
+  "short_name": "SearXNG",
+  "author": "zeraye",
+  "description": "Add SearXNG to search engine list.",
+  "icons": {
+    "16": "images/searxng-wordmark.svg",
+    "128": "images/searxng-wordmark.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "SearXNG",
+      "keyword": "searx, searxng",
+      "search_url": "https://priv.au/search?q={searchTerms}",
+      "favicon_url": "images/searxng-wordmark.svg",
+      "suggest_url": "https://priv.au/autocompleter?q={searchTerms}",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  }
+}
