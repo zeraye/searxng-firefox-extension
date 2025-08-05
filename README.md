@@ -1,7 +1,5 @@
 # SearXNG (priv.au)
 
-Analysing chess.com games at lichess.org for free.
-
 ![Addon logo](images/searxng.svg)
 
 ## Addon
